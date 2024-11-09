@@ -10,7 +10,7 @@ function Register() {
 
     const handleRegister = async () => {
         try {
-            const response = await fetch('https://admincore-production.up.railway.app//user', {
+            const response = await fetch('https://admincore-production.up.railway.app/user', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
